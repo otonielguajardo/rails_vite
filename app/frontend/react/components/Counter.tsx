@@ -8,7 +8,7 @@ function Counter() {
 		<fieldset>
 			<legend>React Counter Component</legend>
 			<button type="button" onClick={() => setCount((count) => count + 1)}>
-				Counter: {count}
+				React Counter: {count}
 			</button>
 		</fieldset>
 	)
