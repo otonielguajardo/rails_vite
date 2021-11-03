@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>RailsVite</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+    <!-- enables vite HMR -->
+    <%= vite_client_tag %>
+    <!-- processes and appends this file in head -->
+    <%= vite_typescript_tag 'application' %>
+  </head>
+  <body>
+    <%= yield %>
+  </body>
+</html>

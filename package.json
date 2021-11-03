@@ -1,0 +1,17 @@
+{
+  "devDependencies": {
+    "@types/react": "^17.0.33",
+    "@types/react-dom": "^17.0.10",
+    "@vitejs/plugin-react": "^1.0.7",
+    "@vitejs/plugin-vue": "^1.9.4",
+    "vite": "^2.6.13",
+    "vite-plugin-ruby": "^3.0.2"
+  },
+  "dependencies": {
+    "moment": "^2.29.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "vue": "^3.2.20",
+    "vue-mermaid": "^0.0.15"
+  }
+}
